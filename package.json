@@ -1,0 +1,22 @@
+{
+  "name": "bedrock-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Alex Parra",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "claude": "yarn build && node dist/claude.js",
+    "build": "rm -rf dist && tsc"
+  },
+  "dependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.568.0",
+    "@aws-sdk/credential-provider-node": "^3.568.0",
+    "ts-node-dev": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.8",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
