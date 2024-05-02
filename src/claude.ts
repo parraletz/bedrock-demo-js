@@ -11,7 +11,7 @@ const client = new BedrockRuntimeClient({
 })
 
 // Prepare the payload for the model.
-const prompt = 'Tell me a story!'
+const prompt = 'What is the meaning of life?'
 const payload = {
   anthropic_version: 'bedrock-2023-05-31',
   max_tokens: 1000,
